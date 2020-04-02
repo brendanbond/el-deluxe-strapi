@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "gear_sections",
+  "info": {
+    "name": "GearSection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intro": {
+      "type": "text"
+    },
+    "gearList": {
+      "type": "text"
+    }
+  }
+}
