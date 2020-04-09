@@ -4,8 +4,8 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "${process.env.DATABASE_URI}",
-        "database": "${process.env.DATABASE_NAME}"
+        "uri": "mongodb+srv://brendanbond:Sanford1@cluster0-vmgjv.mongodb.net/strapi?retryWrites=true&w=majority",
+        "database": "strapi"
       },
       "options": {
         "ssl": "true"
